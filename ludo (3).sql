@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 27, 2022 at 11:39 AM
+-- Generation Time: Dec 28, 2022 at 05:53 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -115,7 +115,11 @@ CREATE TABLE IF NOT EXISTS `produit` (
 
 INSERT INTO `produit` (`id`, `image`, `nom`, `prix`, `description`, `quantity`, `stockgame`, `gametype`, `minage`) VALUES
 (1, 'Spider-man.png', 'Spider-man', 20, 'Marvel\'s Spider-Man: Miles Morales Launch Trailer I PS5, PS4. Marvels Spider-Man: Miles Morales – Family Behind the Scenes | PS5, PS4. ', 4, 4, 'Actionadventure', '16 years old'),
-(2, 'Mincraft.png', 'Mincraft', 17, 'Explore new gaming adventures, accessories, & merchandise on the Minecraft Official Site. Buy & download the game here, or check the site for the latest', 8, 0, 'survival', '8 years old');
+(2, 'Mincraft.png', 'Mincraft', 17, 'Explore new gaming adventures, accessories, & merchandise on the Minecraft Official Site. Buy & download the game here, or check the site for the latest', 8, 0, 'survival', '8 years old'),
+(3, 'Suicide_Squad_Kill_the_Justice_League.png', 'Suicide_Squad_Kill_the_Justice_League', 20, 'Suicide Squad: Kill the Justice League got a new trailer at The Game Awards, which paid tribute to the late Kevin Conroy. We also got a release date for the game, which is coming', 6, 6, 'survival', '8 years old'),
+(4, 'Cyberpunk_2077.png', 'Cyberpunk_2077', 25, 'NIGHT CITY CHANGES EVERY BODY. Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.', 7, 7, 'actionrole-playing', '13 years old'),
+(5, 'Fortnite.png', 'Fortnite', 30, 'Fortnite is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine', 4, 4, 'Survival', '13 years old'),
+(6, 'Battlefield_2042.png', 'Battlefield_2042', 35, 'Battlefield 2042 is a first-person shooter, developed by DICE and published by Electronic Arts. It is the twelfth main installment in the Battlefield series and was released on November 19, 2021', 10, 8, 'Survival', '18 years old');
 
 -- --------------------------------------------------------
 
